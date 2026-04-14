@@ -1,0 +1,14 @@
+El resumen del UML, la mascota es la clase base:
+Los atributos son nombre y edad (protected)
+Métodos: hacerSonido() y mostrarInfo()
+Perro y gato son clases fijas, heredan de Mascota.
+
+Perro
+Tiene atributo propio: raza
+Sobreescribe a hacerSonido() = ladra, mostrarInfo() = muestra la raza
+
+Gato
+Tiene atributo propio: esDeInterior
+Sobreescribe a hacerSonido() = maulla, mostrarInfo() = indica si es de interior
+
+En la herencia Perro y Gato vienen de Mascota.
